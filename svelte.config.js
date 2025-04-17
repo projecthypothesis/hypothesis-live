@@ -27,9 +27,14 @@ const config = {
 	kit: {
 		// Используем адаптер для Netlify
 		adapter: adapter({
-			// edge: true, // включить Edge Functions (если нужны)
+			edge: true, // включаем Edge Functions для лучшей производительности
 			split: false // оптимизация для лямбда-функций
-		})
+		}),
+		
+		// Сообщаем SvelteKit, что путь по умолчанию - корень сайта
+		paths: {
+			base: ''
+		}
 	}
 };
 

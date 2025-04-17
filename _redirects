@@ -1,5 +1,2 @@
-# Редирект для SvelteKit
-/* /.netlify/functions/render 200
-
-# Поддержка SPA фолбэка
-/* /index.html 200 
+# Редирект для SvelteKit - всегда используем обработчик функций Netlify
+/* /.netlify/functions/render 200! 
