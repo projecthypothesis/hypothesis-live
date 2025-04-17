@@ -1,2 +1,2 @@
-# Редирект для SvelteKit - всегда используем обработчик функций Netlify
-/* /.netlify/functions/render 200! 
+# Перенаправляем все запросы к серверной функции SvelteKit
+/* /.netlify/functions/server 200! 
