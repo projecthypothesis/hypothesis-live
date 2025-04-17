@@ -5,6 +5,10 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Определение директории функций (адаптер SvelteKit создаст функции здесь)
+[functions]
+  directory = ".netlify/functions-internal"
+
 # Edge функции для поиска
 [[edge_functions]]
   path = "/api/garden/search"

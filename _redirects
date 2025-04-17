@@ -1,2 +1,0 @@
-# Перенаправляем все запросы к серверной функции SvelteKit
-/* /.netlify/functions/server 200! 

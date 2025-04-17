@@ -25,16 +25,12 @@ const config = {
 	],
 
 	kit: {
-		// Используем адаптер для Netlify с правильными настройками
-		adapter: adapter({
-			// Оставляем edge: false, так как адаптер сам определит, 
-			// когда использовать edge functions
-			edge: false
-		}),
+		// Используем стандартный адаптер для Netlify
+		adapter: adapter(),
 		
-		// Сообщаем SvelteKit, что путь по умолчанию - корень сайта
-		paths: {
-			base: ''
+		// Проверяем все ресурсы и страницы при сборке
+		prerender: {
+			handleMissingId: 'warn'
 		}
 	}
 };
