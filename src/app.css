@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Подключение шрифтов TT Chocolates */
+@font-face {
+  font-family: 'TT Chocolates Trial';
+  src: url('/fonts/tt-chocolates/TT Chocolates Trial Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Chocolates Trial';
+  src: url('/fonts/tt-chocolates/TT Chocolates Trial Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Chocolates Trial';
+  src: url('/fonts/tt-chocolates/TT Chocolates Trial DemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Chocolates Trial';
+  src: url('/fonts/tt-chocolates/TT Chocolates Trial Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Chocolates Trial';
+  src: url('/fonts/tt-chocolates/TT Chocolates Trial ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Chocolates Trial';
+  src: url('/fonts/tt-chocolates/TT Chocolates Trial Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Базовые стили для всего приложения */
+@layer base {
+  html, body {
+    @apply font-tt-chocolates text-text-primary bg-surface-primary;
+  }
+
+  h1 {
+    @apply text-heading-l font-bold;
+  }
+  h2 {
+    @apply text-heading-m font-semibold;
+  }
+  h3 {
+    @apply text-heading-s font-semibold;
+  }
+  p {
+    @apply text-body-m font-regular;
+  }
+  a {
+    @apply text-text-primary hover:text-text-secondary transition-colors no-underline;
+  }
+  
+  /* Стили для markdown-контента в цифровом саду */
+  .prose h1 {
+    @apply text-heading-s font-bold mb-6;
+  }
+  .prose h2 {
+    @apply text-title-l font-semibold mb-4 mt-8;
+  }
+  .prose h3 {
+    @apply text-title-m font-semibold mb-3 mt-6;
+  }
+  .prose p {
+    @apply text-body-m mb-4;
+  }
+  .prose a {
+    @apply text-text-primary border-b border-text-primary hover:border-text-brand hover:text-text-secondary;
+  }
+  .prose ul {
+    @apply list-disc pl-6 mb-4;
+  }
+  .prose ol {
+    @apply list-decimal pl-6 mb-4;
+  }
+  .prose pre {
+    @apply bg-container-secondary p-4 rounded-md mb-4 overflow-x-auto;
+  }
+  .prose code {
+    @apply font-mono bg-container-secondary px-1 py-0.5 rounded text-body-s;
+  }
+  .prose blockquote {
+    @apply border-l-4 border-golden-fizz-400 pl-4 italic my-4;
+  }
+} 

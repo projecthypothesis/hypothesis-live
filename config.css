@@ -1,0 +1,87 @@
+@media (min-width: 640px) {
+  :root {
+    --font-LSemi-bold: normal 600 4rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-LSemi-bold: 0.002em;
+    --font-LBold: normal 700 4rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-LBold: 0.002em;
+    --font-LRegular: normal 400 2.8rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-LRegular: 0.002em;
+    --font-LSemi-bold: normal 600 2.8rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-LSemi-bold: 0.002em;
+    --font-LBold: normal 700 2.8rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-LBold: 0.002em;
+    --font-MSemi-bold: normal 600 3.6rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-MSemi-bold: -0.002em;
+    --font-MBold: normal 700 3.6rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-MBold: -0.002em;
+    --font-MRegular: normal 400 2.4rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-MRegular: 0.004em;
+    --font-MSemi-bold: normal 600 2.4rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-MSemi-bold: 0.004em;
+    --font-MBold: normal 700 2.4rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-MBold: 0.004em;
+    --font-SSemi-bold: normal 600 3rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-SSemi-bold: 0em;
+    --font-SBold: normal 700 3rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-SBold: 0em;
+    --font-SRegular: normal 400 2.2rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-SRegular: 0.002em;
+    --font-SSemi-bold: normal 600 2.2rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-SSemi-bold: 0.002em;
+    --font-SBold: normal 700 2.2rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-SBold: 0.002em;
+    --font-BodyLRegular: normal 400 2rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyLRegular: 0.004em;
+    --font-BodyLSemi-bold: normal 600 2rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyLSemi-bold: 0.004em;
+    --font-BodyLBold: normal 700 2rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyLBold: 0.004em;
+    --font-BodyMRegular: normal 400 1.6rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyMRegular: 0.004em;
+    --font-BodyMSemi-bold: normal 600 1.6rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyMSemi-bold: 0.004em;
+    --font-BodyMBold: normal 700 1.6rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyMBold: 0.004em;
+    --font-BodySRegular: normal 400 1.4rem / 1.5 'TT Chocolates Trl';
+    --letter-spacing-BodySRegular: 0.005em;
+    --font-BodySSemi-bold: normal 600 1.4rem / 1.5 'TT Chocolates Trl';
+    --letter-spacing-BodySSemi-bold: 0.005em;
+    --font-BodySBold: normal 700 1.4rem / 1.5 'TT Chocolates Trl';
+    --letter-spacing-BodySBold: 0.005em;
+  }
+}
+
+html {
+  font-size: 9px;
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 520px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (min-width: 1600px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1900px) {
+  html {
+    font-size: 11px;
+  }
+}

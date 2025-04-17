@@ -1,0 +1,72 @@
+.text-LSemi-bold {
+  font: var(--font-LSemi-bold);
+  letter-spacing: var(--letter-spacing-LSemi-bold);
+}
+.text-LBold {
+  font: var(--font-LBold);
+  letter-spacing: var(--letter-spacing-LBold);
+}
+.text-LRegular {
+  font: var(--font-LRegular);
+  letter-spacing: var(--letter-spacing-LRegular);
+}
+.text-MSemi-bold {
+  font: var(--font-MSemi-bold);
+  letter-spacing: var(--letter-spacing-MSemi-bold);
+}
+.text-MBold {
+  font: var(--font-MBold);
+  letter-spacing: var(--letter-spacing-MBold);
+}
+.text-MRegular {
+  font: var(--font-MRegular);
+  letter-spacing: var(--letter-spacing-MRegular);
+}
+.text-SSemi-bold {
+  font: var(--font-SSemi-bold);
+  letter-spacing: var(--letter-spacing-SSemi-bold);
+}
+.text-SBold {
+  font: var(--font-SBold);
+  letter-spacing: var(--letter-spacing-SBold);
+}
+.text-SRegular {
+  font: var(--font-SRegular);
+  letter-spacing: var(--letter-spacing-SRegular);
+}
+.text-BodyLRegular {
+  font: var(--font-BodyLRegular);
+  letter-spacing: var(--letter-spacing-BodyLRegular);
+}
+.text-BodyLSemi-bold {
+  font: var(--font-BodyLSemi-bold);
+  letter-spacing: var(--letter-spacing-BodyLSemi-bold);
+}
+.text-BodyLBold {
+  font: var(--font-BodyLBold);
+  letter-spacing: var(--letter-spacing-BodyLBold);
+}
+.text-BodyMRegular {
+  font: var(--font-BodyMRegular);
+  letter-spacing: var(--letter-spacing-BodyMRegular);
+}
+.text-BodyMSemi-bold {
+  font: var(--font-BodyMSemi-bold);
+  letter-spacing: var(--letter-spacing-BodyMSemi-bold);
+}
+.text-BodyMBold {
+  font: var(--font-BodyMBold);
+  letter-spacing: var(--letter-spacing-BodyMBold);
+}
+.text-BodySRegular {
+  font: var(--font-BodySRegular);
+  letter-spacing: var(--letter-spacing-BodySRegular);
+}
+.text-BodySSemi-bold {
+  font: var(--font-BodySSemi-bold);
+  letter-spacing: var(--letter-spacing-BodySSemi-bold);
+}
+.text-BodySBold {
+  font: var(--font-BodySBold);
+  letter-spacing: var(--letter-spacing-BodySBold);
+}

@@ -1,0 +1,185 @@
+@media (min-width: 640px) {
+  :root {
+    --font-LSemi-bold: normal 600 4rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-LSemi-bold: 0.002em;
+    --font-LBold: normal 700 4rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-LBold: 0.002em;
+    --font-LRegular: normal 400 2.8rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-LRegular: 0.002em;
+    --font-LSemi-bold: normal 600 2.8rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-LSemi-bold: 0.002em;
+    --font-LBold: normal 700 2.8rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-LBold: 0.002em;
+    --font-MSemi-bold: normal 600 3.6rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-MSemi-bold: -0.002em;
+    --font-MBold: normal 700 3.6rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-MBold: -0.002em;
+    --font-MRegular: normal 400 2.4rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-MRegular: 0.004em;
+    --font-MSemi-bold: normal 600 2.4rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-MSemi-bold: 0.004em;
+    --font-MBold: normal 700 2.4rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-MBold: 0.004em;
+    --font-SSemi-bold: normal 600 3rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-SSemi-bold: 0em;
+    --font-SBold: normal 700 3rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-SBold: 0em;
+    --font-SRegular: normal 400 2.2rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-SRegular: 0.002em;
+    --font-SSemi-bold: normal 600 2.2rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-SSemi-bold: 0.002em;
+    --font-SBold: normal 700 2.2rem / 1.2 'TT Chocolates Trl';
+    --letter-spacing-SBold: 0.002em;
+    --font-BodyLRegular: normal 400 2rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyLRegular: 0.004em;
+    --font-BodyLSemi-bold: normal 600 2rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyLSemi-bold: 0.004em;
+    --font-BodyLBold: normal 700 2rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyLBold: 0.004em;
+    --font-BodyMRegular: normal 400 1.6rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyMRegular: 0.004em;
+    --font-BodyMSemi-bold: normal 600 1.6rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyMSemi-bold: 0.004em;
+    --font-BodyMBold: normal 700 1.6rem / 1.3 'TT Chocolates Trl';
+    --letter-spacing-BodyMBold: 0.004em;
+    --font-BodySRegular: normal 400 1.4rem / 1.5 'TT Chocolates Trl';
+    --letter-spacing-BodySRegular: 0.005em;
+    --font-BodySSemi-bold: normal 600 1.4rem / 1.5 'TT Chocolates Trl';
+    --letter-spacing-BodySSemi-bold: 0.005em;
+    --font-BodySBold: normal 700 1.4rem / 1.5 'TT Chocolates Trl';
+    --letter-spacing-BodySBold: 0.005em;
+  }
+}
+
+html {
+  font-size: 9px;
+}
+@media (min-width: 375px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 520px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (min-width: 1200px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media (min-width: 1600px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1900px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+:root {
+  /* Основные цвета */
+  --accent-primary: #4f46e5;
+  --accent-primary-light: #6366f1;
+  --accent-primary-dark: #4338ca;
+  --accent-secondary: #10b981;
+  --accent-secondary-light: #34d399;
+  --accent-secondary-dark: #059669;
+  
+  /* Фоны */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f3f4f6;
+  --bg-tertiary: #e5e7eb;
+  --bg-dark: #111827;
+  
+  /* Текст */
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --text-tertiary: #6b7280;
+  --text-light: #f9fafb;
+  
+  /* Статус */
+  --status-success: #10b981;
+  --status-warning: #f59e0b;
+  --status-error: #ef4444;
+  --status-info: #3b82f6;
+
+  /* Границы */
+  --border-light: #e5e7eb;
+  --border-medium: #d1d5db;
+  --border-dark: #9ca3af;
+  
+  /* Тени */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  
+  /* Радиусы */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+  
+  /* Размеры шрифтов */
+  /* Заголовки */
+  --font-size-L: 2rem;    /* 32px */
+  --font-size-M: 1.5rem;  /* 24px */
+  --font-size-S: 1.25rem; /* 20px */
+  
+  /* Основной текст */
+  --font-size-BodyL: 1.125rem; /* 18px */
+  --font-size-BodyM: 1rem;     /* 16px */
+  --font-size-BodyS: 0.875rem; /* 14px */
+  
+  /* Межстрочные интервалы */
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-loose: 1.75;
+  
+  /* Интервалы между буквами */
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  
+  /* Жирность шрифта */
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  
+  /* Переменные для шрифтов (для typography.css) */
+  /* Заголовки */
+  --font-LSemi-bold: var(--font-weight-semi-bold) var(--font-size-L)/var(--line-height-tight) 'Inter', sans-serif;
+  --font-LBold: var(--font-weight-bold) var(--font-size-L)/var(--line-height-tight) 'Inter', sans-serif;
+  --font-LRegular: var(--font-weight-regular) var(--font-size-L)/var(--line-height-tight) 'Inter', sans-serif;
+  
+  --font-MSemi-bold: var(--font-weight-semi-bold) var(--font-size-M)/var(--line-height-tight) 'Inter', sans-serif;
+  --font-MBold: var(--font-weight-bold) var(--font-size-M)/var(--line-height-tight) 'Inter', sans-serif;
+  --font-MRegular: var(--font-weight-regular) var(--font-size-M)/var(--line-height-tight) 'Inter', sans-serif;
+  
+  --font-SSemi-bold: var(--font-weight-semi-bold) var(--font-size-S)/var(--line-height-tight) 'Inter', sans-serif;
+  --font-SBold: var(--font-weight-bold) var(--font-size-S)/var(--line-height-tight) 'Inter', sans-serif;
+  --font-SRegular: var(--font-weight-regular) var(--font-size-S)/var(--line-height-tight) 'Inter', sans-serif;
+  
+  /* Основной текст */
+  --font-BodyLRegular: var(--font-weight-regular) var(--font-size-BodyL)/var(--line-height-normal) 'Inter', sans-serif;
+  --font-BodyLSemi-bold: var(--font-weight-semi-bold) var(--font-size-BodyL)/var(--line-height-normal) 'Inter', sans-serif;
+  --font-BodyLBold: var(--font-weight-bold) var(--font-size-BodyL)/var(--line-height-normal) 'Inter', sans-serif;
+  
+  --font-BodyMRegular: var(--font-weight-regular) var(--font-size-BodyM)/var(--line-height-normal) 'Inter', sans-serif;
+  --font-BodyMSemi-bold: var(--font-weight-semi-bold) var(--font-size-BodyM)/var(--line-height-normal) 'Inter', sans-serif;
+  --font-BodyMBold: var(--font-weight-bold) var(--font-size-BodyM)/var(--line-height-normal) 'Inter', sans-serif;
+  
+  --font-BodySRegular: var(--font-weight-regular) var(--font-size-BodyS)/var(--line-height-normal) 'Inter', sans-serif;
+  --font-BodySSemi-bold: var(--font-weight-semi-bold) var(--font-size-BodyS)/var(--line-height-normal) 'Inter', sans-serif;
+  --font-BodySBold: var(--font-weight-bold) var(--font-size-BodyS)/var(--line-height-normal) 'Inter', sans-serif;
+} 
